@@ -1,0 +1,25 @@
+==== Dataset: glass
+@Original Info: (without labels)
+Original shape: data=(214, 9) 
+Original anomal rate is: 4.21% 
+Normal data is 205; Anomaly data is 9 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.00 seconds
+Data shape: data=(214, 9)
+Train/Validate/test data shape is: (128, 9) / (43, 9) / (43, 9) 
+== Finished == 
+Total time cost is 0.00 seconds
+
+
+... Processing glass ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_glass...
+AUC:1.0, precision @ rank n:1.0, recall @ rank n:1.0, Gmean:1.0, train_AUC:1.0, train_precision:1.0, train_recall:1.0, train_gmean:1.0, val_AUC:0.9512, val_precision:0.5, val_recall:0.5, val_gmean:0.6984,  execution time: 4.9474s
+Average: 
+auc:  [1.]
+gmean:  [1.]
+pr:  [1.]
+prn:  [1.]
+rec:  [1.]
+

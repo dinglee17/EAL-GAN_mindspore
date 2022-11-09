@@ -1,0 +1,25 @@
+==== Dataset: lympho
+@Original Info: (without labels)
+Original shape: data=(148, 18) 
+Original anomal rate is: 4.05% 
+Normal data is 142; Anomaly data is 6 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.00 seconds
+Data shape: data=(148, 18)
+Train/Validate/test data shape is: (88, 18) / (30, 18) / (30, 18) 
+== Finished == 
+Total time cost is 0.00 seconds
+
+
+... Processing lympho ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_lympho...
+AUC:1.0, precision @ rank n:1.0, recall @ rank n:1.0, Gmean:1.0, train_AUC:0.6101, train_precision:0.25, train_recall:0.25, train_gmean:0.491, val_AUC:0.0, val_precision:0.0, val_recall:0.0, val_gmean:0.0,  execution time: 3.5431s
+Average: 
+auc:  [1.]
+gmean:  [1.]
+pr:  [1.]
+prn:  [1.]
+rec:  [1.]
+

@@ -1,0 +1,25 @@
+==== Dataset: optdigits
+@Original Info: (without labels)
+Original shape: data=(5216, 64) 
+Original anomal rate is: 2.88% 
+Normal data is 5066; Anomaly data is 150 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.01 seconds
+Data shape: data=(5216, 64)
+Train/Validate/test data shape is: (3129, 64) / (1043, 64) / (1044, 64) 
+== Finished == 
+Total time cost is 0.01 seconds
+
+
+... Processing optdigits ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_optdigits...
+AUC:1.0, precision @ rank n:1.0, recall @ rank n:1.0, Gmean:1.0, train_AUC:0.9993, train_precision:0.9556, train_recall:0.9556, train_gmean:0.9769, val_AUC:0.9995, val_precision:0.9667, val_recall:0.9667, val_gmean:0.9827,  execution time: 5.6174s
+Average: 
+auc:  [1.]
+gmean:  [1.]
+pr:  [1.]
+prn:  [1.]
+rec:  [1.]
+

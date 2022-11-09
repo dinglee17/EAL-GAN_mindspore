@@ -1,0 +1,25 @@
+==== Dataset: satimage-2
+@Original Info: (without labels)
+Original shape: data=(5803, 36) 
+Original anomal rate is: 1.22% 
+Normal data is 5732; Anomaly data is 71 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.01 seconds
+Data shape: data=(5803, 36)
+Train/Validate/test data shape is: (3481, 36) / (1161, 36) / (1161, 36) 
+== Finished == 
+Total time cost is 0.01 seconds
+
+
+... Processing satimage-2 ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_satimage-2...
+AUC:0.9961, precision @ rank n:0.9286, recall @ rank n:0.9286, Gmean:0.9632, train_AUC:0.9997, train_precision:0.9302, train_recall:0.9302, train_gmean:0.9641, val_AUC:0.9991, val_precision:0.9286, val_recall:0.9286, val_gmean:0.9632,  execution time: 5.1426s
+Average: 
+auc:  [0.9961]
+gmean:  [0.9632]
+pr:  [0.94172932]
+prn:  [0.9286]
+rec:  [0.9286]
+

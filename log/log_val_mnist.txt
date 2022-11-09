@@ -1,0 +1,25 @@
+==== Dataset: mnist
+@Original Info: (without labels)
+Original shape: data=(7603, 100) 
+Original anomal rate is: 9.21% 
+Normal data is 6903; Anomaly data is 700 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.02 seconds
+Data shape: data=(7603, 100)
+Train/Validate/test data shape is: (4561, 100) / (1521, 100) / (1521, 100) 
+== Finished == 
+Total time cost is 0.02 seconds
+
+
+... Processing mnist ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_mnist...
+AUC:0.9949, precision @ rank n:0.9071, recall @ rank n:0.9071, Gmean:0.9479, train_AUC:1.0, train_precision:0.9976, train_recall:0.9976, train_gmean:0.9987, val_AUC:0.986, val_precision:0.8929, val_recall:0.8929, val_gmean:0.9398,  execution time: 6.6744s
+Average: 
+auc:  [0.9949]
+gmean:  [0.9479]
+pr:  [0.9631455]
+prn:  [0.9071]
+rec:  [0.9071]
+

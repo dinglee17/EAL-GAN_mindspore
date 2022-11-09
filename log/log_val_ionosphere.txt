@@ -1,0 +1,25 @@
+==== Dataset: ionosphere
+@Original Info: (without labels)
+Original shape: data=(351, 33) 
+Original anomal rate is: 35.90% 
+Normal data is 225; Anomaly data is 126 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.00 seconds
+Data shape: data=(351, 33)
+Train/Validate/test data shape is: (210, 33) / (70, 33) / (71, 33) 
+== Finished == 
+Total time cost is 0.00 seconds
+
+
+... Processing ionosphere ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_ionosphere...
+AUC:0.9817, precision @ rank n:0.92, recall @ rank n:0.92, Gmean:0.9381, train_AUC:0.9979, train_precision:0.9605, train_recall:0.9605, train_gmean:0.969, val_AUC:0.928, val_precision:0.92, val_recall:0.92, val_gmean:0.9376,  execution time: 1.2605s
+Average: 
+auc:  [0.9817]
+gmean:  [0.9381]
+pr:  [0.97190935]
+prn:  [0.92]
+rec:  [0.92]
+

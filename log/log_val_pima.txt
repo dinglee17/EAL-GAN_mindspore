@@ -1,0 +1,25 @@
+==== Dataset: pima
+@Original Info: (without labels)
+Original shape: data=(768, 8) 
+Original anomal rate is: 34.90% 
+Normal data is 500; Anomaly data is 268 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.00 seconds
+Data shape: data=(768, 8)
+Train/Validate/test data shape is: (460, 8) / (154, 8) / (154, 8) 
+== Finished == 
+Total time cost is 0.00 seconds
+
+
+... Processing pima ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_pima...
+AUC:0.8361, precision @ rank n:0.6667, recall @ rank n:0.6667, Gmean:0.7394, train_AUC:0.8105, train_precision:0.6312, train_recall:0.6312, train_gmean:0.7121, val_AUC:0.8113, val_precision:0.6111, val_recall:0.6111, val_gmean:0.6948,  execution time: 5.2502s
+Average: 
+auc:  [0.8361]
+gmean:  [0.7394]
+pr:  [0.70946031]
+prn:  [0.6667]
+rec:  [0.6667]
+

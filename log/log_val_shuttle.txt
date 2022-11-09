@@ -1,0 +1,25 @@
+==== Dataset: shuttle
+@Original Info: (without labels)
+Original shape: data=(49097, 9) 
+Original anomal rate is: 7.15% 
+Normal data is 45586; Anomaly data is 3511 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.08 seconds
+Data shape: data=(49097, 9)
+Train/Validate/test data shape is: (29457, 9) / (9820, 9) / (9820, 9) 
+== Finished == 
+Total time cost is 0.08 seconds
+
+
+... Processing shuttle ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_shuttle...
+AUC:0.9997, precision @ rank n:0.9886, recall @ rank n:0.9886, Gmean:0.9938, train_AUC:0.9999, train_precision:0.9891, train_recall:0.9891, train_gmean:0.9941, val_AUC:0.9998, val_precision:0.9886, val_recall:0.9886, val_gmean:0.9938,  execution time: 4.9523s
+Average: 
+auc:  [0.9997]
+gmean:  [0.9938]
+pr:  [0.99745646]
+prn:  [0.9886]
+rec:  [0.9886]
+

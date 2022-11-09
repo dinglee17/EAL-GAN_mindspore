@@ -1,0 +1,25 @@
+==== Dataset: cardio
+@Original Info: (without labels)
+Original shape: data=(1831, 21) 
+Original anomal rate is: 9.61% 
+Normal data is 1655; Anomaly data is 176 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.01 seconds
+Data shape: data=(1831, 21)
+Train/Validate/test data shape is: (1098, 21) / (366, 21) / (367, 21) 
+== Finished == 
+Total time cost is 0.01 seconds
+
+
+... Processing cardio ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_cardio...
+AUC:0.9959, precision @ rank n:0.9429, recall @ rank n:0.9429, Gmean:0.9681, train_AUC:0.9991, train_precision:0.9623, train_recall:0.9623, train_gmean:0.979, val_AUC:0.995, val_precision:0.9429, val_recall:0.9429, val_gmean:0.9681,  execution time: 4.4101s
+Average: 
+auc:  [0.9959]
+gmean:  [0.9681]
+pr:  [0.97683526]
+prn:  [0.9429]
+rec:  [0.9429]
+

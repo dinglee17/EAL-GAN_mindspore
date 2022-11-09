@@ -1,0 +1,25 @@
+==== Dataset: vowels
+@Original Info: (without labels)
+Original shape: data=(1456, 12) 
+Original anomal rate is: 3.43% 
+Normal data is 1406; Anomaly data is 50 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.01 seconds
+Data shape: data=(1456, 12)
+Train/Validate/test data shape is: (873, 12) / (291, 12) / (292, 12) 
+== Finished == 
+Total time cost is 0.01 seconds
+
+
+... Processing vowels ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_vowels...
+AUC:0.9922, precision @ rank n:0.9, recall @ rank n:0.9, Gmean:0.947, train_AUC:0.9965, train_precision:0.8, train_recall:0.8, train_gmean:0.8912, val_AUC:0.9794, val_precision:0.6, val_recall:0.6, val_gmean:0.7691,  execution time: 5.2612s
+Average: 
+auc:  [0.9922]
+gmean:  [0.947]
+pr:  [0.93125]
+prn:  [0.9]
+rec:  [0.9]
+

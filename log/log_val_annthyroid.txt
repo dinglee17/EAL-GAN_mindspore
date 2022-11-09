@@ -1,0 +1,25 @@
+==== Dataset: annthyroid
+@Original Info: (without labels)
+Original shape: data=(7200, 6) 
+Original anomal rate is: 7.42% 
+Normal data is 6666; Anomaly data is 534 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.02 seconds
+Data shape: data=(7200, 6)
+Train/Validate/test data shape is: (4320, 6) / (1440, 6) / (1440, 6) 
+== Finished == 
+Total time cost is 0.02 seconds
+
+
+... Processing annthyroid ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_annthyroid...
+AUC:0.9912, precision @ rank n:0.8318, recall @ rank n:0.8318, Gmean:0.9058, train_AUC:0.9901, train_precision:0.8, train_recall:0.8, train_gmean:0.8872, val_AUC:0.992, val_precision:0.8318, val_recall:0.8318, val_gmean:0.9058,  execution time: 4.1588s
+Average: 
+auc:  [0.9912]
+gmean:  [0.9058]
+pr:  [0.82904407]
+prn:  [0.8318]
+rec:  [0.8318]
+

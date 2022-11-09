@@ -1,0 +1,25 @@
+==== Dataset: satellite
+@Original Info: (without labels)
+Original shape: data=(6435, 36) 
+Original anomal rate is: 31.64% 
+Normal data is 4399; Anomaly data is 2036 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.01 seconds
+Data shape: data=(6435, 36)
+Train/Validate/test data shape is: (3861, 36) / (1287, 36) / (1287, 36) 
+== Finished == 
+Total time cost is 0.01 seconds
+
+
+... Processing satellite ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_satellite...
+AUC:0.9588, precision @ rank n:0.8256, recall @ rank n:0.8256, Gmean:0.8712, train_AUC:0.9487, train_precision:0.7962, train_recall:0.7962, train_gmean:0.8492, val_AUC:0.9524, val_precision:0.8182, val_recall:0.8182, val_gmean:0.8657,  execution time: 5.4391s
+Average: 
+auc:  [0.9588]
+gmean:  [0.8712]
+pr:  [0.92903977]
+prn:  [0.8256]
+rec:  [0.8256]
+

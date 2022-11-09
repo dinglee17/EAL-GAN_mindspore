@@ -1,0 +1,25 @@
+==== Dataset: letter
+@Original Info: (without labels)
+Original shape: data=(1600, 32) 
+Original anomal rate is: 6.25% 
+Normal data is 1500; Anomaly data is 100 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.01 seconds
+Data shape: data=(1600, 32)
+Train/Validate/test data shape is: (960, 32) / (320, 32) / (320, 32) 
+== Finished == 
+Total time cost is 0.01 seconds
+
+
+... Processing letter ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_letter...
+AUC:0.8702, precision @ rank n:0.6, recall @ rank n:0.6, Gmean:0.7642, train_AUC:0.9505, train_precision:0.6, train_recall:0.6, train_gmean:0.7642, val_AUC:0.8753, val_precision:0.5, val_recall:0.5, val_gmean:0.6952,  execution time: 3.9741s
+Average: 
+auc:  [0.8702]
+gmean:  [0.7642]
+pr:  [0.52097831]
+prn:  [0.6]
+rec:  [0.6]
+

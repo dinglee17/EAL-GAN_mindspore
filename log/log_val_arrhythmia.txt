@@ -1,0 +1,25 @@
+==== Dataset: arrhythmia
+@Original Info: (without labels)
+Original shape: data=(452, 274) 
+Original anomal rate is: 14.60% 
+Normal data is 386; Anomaly data is 66 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.01 seconds
+Data shape: data=(452, 274)
+Train/Validate/test data shape is: (270, 274) / (91, 274) / (91, 274) 
+== Finished == 
+Total time cost is 0.01 seconds
+
+
+... Processing arrhythmia ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_arrhythmia...
+AUC:0.8619, precision @ rank n:0.6154, recall @ rank n:0.6154, Gmean:0.7589, train_AUC:0.9991, train_precision:0.975, train_recall:0.975, train_gmean:0.9853, val_AUC:0.6686, val_precision:0.3846, val_recall:0.3846, val_gmean:0.5875,  execution time: 4.7104s
+Average: 
+auc:  [0.8619]
+gmean:  [0.7589]
+pr:  [0.69847289]
+prn:  [0.6154]
+rec:  [0.6154]
+

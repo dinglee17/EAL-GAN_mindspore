@@ -1,0 +1,25 @@
+==== Dataset: pendigits
+@Original Info: (without labels)
+Original shape: data=(6870, 16) 
+Original anomal rate is: 2.27% 
+Normal data is 6714; Anomaly data is 156 
+@Preprocess Info: 
+== Feature Process == 
+Time cost is 0.01 seconds
+Data shape: data=(6870, 16)
+Train/Validate/test data shape is: (4122, 16) / (1374, 16) / (1374, 16) 
+== Finished == 
+Total time cost is 0.01 seconds
+
+
+... Processing pendigits ... Iteration 1
+reload trained parameters
+Loading weights from ./weights_pendigits...
+AUC:0.9998, precision @ rank n:0.9677, recall @ rank n:0.9677, Gmean:0.9834, train_AUC:0.9978, train_precision:0.9362, train_recall:0.9362, train_gmean:0.9668, val_AUC:0.9994, val_precision:0.9032, val_recall:0.9032, val_gmean:0.9493,  execution time: 4.3642s
+Average: 
+auc:  [0.9998]
+gmean:  [0.9834]
+pr:  [0.99126711]
+prn:  [0.9677]
+rec:  [0.9677]
+
